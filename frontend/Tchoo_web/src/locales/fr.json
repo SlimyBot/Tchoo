@@ -1,0 +1,181 @@
+{
+  "main": {
+    "connect": "Se connecter",
+    "surveySolution": "La meilleure solution de questionnaire en ligne"
+  },
+  "head":{
+    "joinSession": "Rejoindre la session"
+  },
+  "create": {
+    "creaName": "Nom du questionnaire",
+    "question": "Question",
+    "save": "Enregistrez",
+    "export": "Exportez",
+    "saveLaunch": "Enregistrez et affichez",
+    "open": "Question ouverte",
+    "multiple": "Question à choix multiple",
+    "import": "Importer une question",
+    "importMany": "Importer un questionnaire",
+    "text":"Question texte",
+    "textArea":"Description",
+    "title":"Titre",
+    "description":"Description",
+    "importFrom":"Importer depuis la banque de question",
+    "multipleAnswers":"Choix multiples",
+    "singleAnswer":"Choix unique",
+    "openRestricted":"Ouverte restreinte",
+    "answer":"Réponse",
+    "check":"Correcte"
+  },
+  "createSession": {
+    "creaName": "Nom de la session",
+    "piloted":"Session pilotée",
+    "autoTime":"Session automatique (minutée)",
+    "autoFree":"Session automatique (libre)",
+    "importSurvey":"Importer un questionnaire",
+    "surveyLinked":"Questionnaire lié",
+    "changeSurvey":"Changer de questionnaire",
+    "sessionDetails":"Détails de la session",
+    "access":"Accessibilité",
+    "public":"Publique",
+    "private":"Privée",
+    "selectGroup":"Choisir un groupe",
+    "answersVisibility":"Affichage des réponses entre chaque question",
+    "yes":"Oui",
+    "anonymousAnswers":"Réponses anonymes",
+    "save":"Sauvegarder",
+    "start":"Lancer la session"
+  },
+  "lobby":{
+    "Lobby": "Lobby",
+    "Code": "Code de la partie",
+    "wait": "Veuillez attendre le départ",
+    "conn": "Connexion"
+  },
+  "between": {
+    "Answer": "Réponse(s) prise(s) en compte",
+    "msg": "Veuillez attendre la prochaine question"
+  },
+  "error": {
+    "error": "Erreur",
+    "msg": "Une erreur est survenue, veuillez réessayer plus tard"
+  },
+  "survey":{
+    "surveys": "Voir mes questionnaires",
+    "questions": "Voir mes questions",
+    "session": "Gérer mes sessions passées",
+    "groups": "Gérer mes groupes",
+    "media":"Média",
+    "subject":"Sujet",
+    "research":"Rechercher une question...",
+    "add":"Ajouter",
+    "researchSurvey":"Rechercher un questionnaire...",
+    "sessionsShow":"Voir mes modèles de sessions",
+    "import":"Importer des questions (GIFT/.txt)",
+    "importSurvey":"Importer un questionnaire (AMC)",
+    "Publique":"Publique",
+    "Privé":"Privée",
+    "show":"Montrer les réponses",
+    "hide":"Ne pas montrer les réponses",
+    "piloted":"Session pilotée",
+    "auto_timer":"Session automatique (minutée)",
+    "auto_free":"Session automatique (libre)"
+  },
+  "error404":{
+    "notFound":"Page introuvable",
+    "home":"Retournez à la page principal"
+  },
+  "joinGame":{
+    "code":"Code de la partie"
+  },
+  "surDetails":{
+    "subject":"Sujet",
+    "nbrQuestion":"Nombre de questions ",
+    "delete":"Supprimer",
+    "edit":"Modifier le questionnaire",
+    "create":"Créer une session",
+    "quick":"Session à l'improviste",
+    "editSession":"Modifier le modèle de session",
+    "startSession":"Lancer une session"
+  },
+  "final":{
+    "result":"Résultats complets"
+  },
+  "session":{
+    "finished":"État : Terminée",
+    "joinCode":"Code Session",
+    "inProgress":"État : En cours",
+    "history":"Historique des sessions",
+    "results":"Voir mes résultats"
+  },
+  "freeAnsw":{
+    "placeholder":"Votre réponse"
+  },
+  "multipleAnsw":{
+    "answer":"Répondre"
+  },
+  "openQst":{
+    "word":"Un seul mot autorisé"
+  },
+  "btnPriv":{
+    "private":"Privée",
+    "public":"Publique",
+    "select":"Sélectionnez un groupe"
+  },
+  "btnStart":{
+    "start":"Lancer le test"
+  },
+  "numberPlayers":{
+    "nbrPly":"Nombre de joueurs"
+  },
+  "error403":{
+    "msg":"Cette page n'est pas accessible",
+    "home":"Retournez à la page principal"
+  },
+  "allGrp":{
+    "Groups":"Mes groupes",
+    "actions":"Actions",
+    "groupe":"Groupes",
+    "creator":"Créateur",
+    "parent":"Groupe parent",
+    "members":"Nombre de membres",
+    "createGroup":"Créer un groupe",
+    "importGrp":"Importer des groupes (.CSV)"
+  },
+  "allPlayers":{
+    "result":"Résultats complets"
+  },
+  "createQst":{
+    "multiple":"Plusieurs réponses",
+    "single":"Une réponse",
+    "openRestricted":"Ouverte restreinte"
+  },
+  "end":{
+    "noRes":"Aucun résultat...",
+    "fullRes":"Résultats complets",
+    "back":"Retour à la page d'accueil"
+  },
+  "group":{
+  "name":"Nom",
+  "modify":"Modifier ce groupe",
+  "delete":"Supprimer ce groupe",
+  "owner":"Propriétaire du groupe",
+  "parent":"Groupe parent",
+  "members":"Membres",
+  "noMembers":"Aucun membre",
+  "addMembers":"Ajouter un membre",
+  "removeMembers":"Supprimer des membres"
+  },
+  "cas":{
+    "home":"Retour à l'accueil",
+    "login":"Login en cours",
+    "loading":"Chargement...",
+    "error":"Erreur de connexion. Veillez réessayer.",
+    "welcome":"Bienvenue !"
+  },
+  "student":{
+    "res":"Vos résultats disponibles",
+    "open":"Questions ouvertes",
+    "score":"Score"
+  }
+}

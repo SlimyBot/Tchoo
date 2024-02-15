@@ -1,0 +1,181 @@
+{
+  "main": {
+    "connect": "Sign in",
+    "surveySolution": "The best online survey solution"
+  },
+  "head": {
+    "joinSession": "Join session"
+  },
+  "create": {
+    "creaName": "Survey name",
+    "question": "Question",
+    "save": "Save",
+    "export": "Export",
+    "saveLaunch": "Save and launch",
+    "open": "Open-ended question",
+    "multiple": "Multiple Choice question",
+    "import": "Import question",
+    "importMany": "Import survey",
+    "text": "Text question",
+    "textArea": "Description",
+    "title": "Title",
+    "description": "Description",
+    "importFrom": "Import from question bank",
+    "multipleAnswers": "Multiple choices",
+    "singleAnswer": "Single choice",
+    "openRestricted": "Restricted open-ended",
+    "answer": "Answer",
+    "check": "Correct"
+  },
+  "createSession": {
+    "creaName": "Session Name",
+    "piloted": "Piloted session",
+    "autoTime": "Automatic session (timed)",
+    "autoFree": "Automatic session (free)",
+    "importSurvey": "Import survey",
+    "surveyLinked": "Linked survey",
+    "changeSurvey": "Change survey",
+    "sessionDetails": "Session details",
+    "access": "Accessibility",
+    "public": "Public",
+    "private": "Private",
+    "selectGroup": "Select group",
+    "answersVisibility": "Show answers between each question",
+    "yes": "Yes",
+    "anonymousAnswers": "Anonymous answers",
+    "save": "Save",
+    "start": "Start session"
+  },
+  "lobby": {
+    "Lobby": "Lobby",
+    "Code": "Game code",
+    "wait": "Please wait for the start",
+    "conn": "Connection"
+  },
+  "between": {
+    "Answer": "Answer taken into account",
+    "msg": "Please wait for the next question"
+  },
+  "error": {
+    "error": "Error",
+    "msg": "An error occurred, please try again later"
+  },
+  "survey": {
+    "surveys": "View my surveys",
+    "questions": "View my questions",
+    "session": "Manage my past sessions",
+    "groups": "Manage my groups",
+    "media": "Media",
+    "subject": "Subject",
+    "research": "Search for a question...",
+    "add": "Add",
+    "researchSurvey": "Search for a survey...",
+    "sessionsShow": "View my session templates",
+    "import": "Import questions (GIFT/.txt)",
+    "importSurvey": "Import survey (AMC)",
+    "Publique": "Public",
+    "Privé": "Private",
+    "show": "Show Answers",
+    "hide": "Hide Answers",
+    "piloted": "Guided Session",
+    "auto_timer": "Automatic Session (Timed)",
+    "auto_free": "Automatic Session (Free)"
+  },
+  "error404": {
+    "notFound": "Page not found",
+    "home": "Return to home page"
+  },
+  "joinGame": {
+    "code": "Game code"
+  },
+  "surDetails": {
+    "subject": "Subject",
+    "nbrQuestion": "Number of questions ",
+    "delete": "Delete",
+    "edit": "Edit survey",
+    "create": "Create session",
+    "quick": "Impromptu session",
+    "editSession": "Edit session template",
+    "startSession": "Start session"
+  },
+  "final": {
+    "result": "Complete results"
+  },
+  "session": {
+    "finished": "Status: Finished",
+    "joinCode": "Session code",
+    "inProgress": "Status: In progress",
+    "history": "Session History",
+    "results": "View My Results"
+  },
+  "freeAnsw": {
+    "placeholder": "Your answer"
+  },
+  "multipleAnsw": {
+    "answer": "Answer"
+  },
+  "openQst": {
+    "word": "Only one word allowed"
+  },
+  "btnPriv": {
+    "private": "Private",
+    "public": "Public",
+    "select": "Select a group"
+  },
+  "btnStart": {
+    "start": "Start test"
+  },
+  "numberPlayers": {
+    "nbrPly": "Number of players"
+  },
+  "error403": {
+    "msg": "This page is not accessible",
+    "home": "Return to home page"
+  },
+  "allGrp": {
+    "Groups": "My groups",
+    "actions": "Actions",
+    "groupe": "Groups",
+    "creator": "Creator",
+    "parent": "Parent group",
+    "members": "Number of members",
+    "createGroup": "Create a group",
+    "importGrp": "Import Groups (.CSV)"
+  },
+  "allPlayers": {
+    "result": "Complete results"
+  },
+  "createQst": {
+    "multiple": "Multiple answers",
+    "single": "Single answer",
+    "openRestricted": "Restricted open-ended"
+  },
+  "end": {
+    "noRes": "No results...",
+    "fullRes": "Complete results",
+    "back": "Back to home page"
+  },
+  "group": {
+    "name": "Name",
+    "modify": "Modify this group",
+    "delete": "Delete this group",
+    "owner": "Group owner",
+    "parent": "Parent group",
+    "members": "Members",
+    "noMembers": "No members",
+    "addMembers": "Add member",
+    "removeMembers": "Remove members"
+  },
+  "cas": {
+    "home": "Back to home page",
+    "login": "Logging in",
+    "loading": "Loading...",
+    "error": "Connection error. Please try again.",
+    "welcome": "Welcome!"
+  },
+  "student": {
+    "res": "Your available results",
+    "open": "Open questions",
+    "score": "Score"
+  }
+}

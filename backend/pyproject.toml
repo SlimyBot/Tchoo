@@ -1,0 +1,80 @@
+[tool.poetry]
+name = "sae-backend"
+version = "0.1.0"
+description = "Partie backend du projet de la SAE"
+authors = [
+    "Raphaël CALDWELL <raphael.caldwell@etu.univ-cotedazur.fr>",
+    "Lucas SCHIAVETTI <lucas.schiavetti@etu.univ-cotedazur.fr>",
+    "Mathieu DA VINHA <mathieu.da-vinha@etu.univ-cotedazur.fr>",
+    "Eloi TERROL <eloi.terrol@etu.univ-cotedazur.fr>",
+    "Mattys LEMOINE <mattys.lemoine@etu.univ-cotedazur.fr>",
+    "Santiago DI FEDE <santiago.difede@etu.univ-cotedazur.fr>",
+    "Maxance VIOLA <maxance.viola@etu.univ-cotedazur.fr>"
+]
+readme = ["README.md"]
+license = "AGPL-3.0-only"
+repository = "https://iut-git.unice.fr/2023_sae501/equipe2a"
+packages = [
+    { include = "sae_backend" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.103.1"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+pydantic-settings = "^2.0.3"
+sqlalchemy = "^2.0.20"
+psycopg = {extras = ["binary"], version = "^3.1.10"}
+python-socketio = "^5.9.0"
+async-lru = "^2.0.4"
+redis = "^5.0.1"
+python-cas= "^1.6.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.2"
+httpx = "^0.25.0"
+pytest-env = "^1.0.1"
+sqlalchemy-stubs = "^0.4"
+pytest-asyncio = "^0.21.1"
+aiosqlite = "^0.19.0"
+black = "^23.11.0"
+flake8 = "^6.1.0"
+bandit = "^1.7.5"
+coverage = "^7.3.2"
+pytest-cov = "^4.1.0"
+poethepoet = "^0.24.3"
+
+
+[tool.poetry.scripts]
+dev = "sae_backend:dev_run"  # pour retrocompatibilité
+
+[tool.poe.tasks]
+test = "pytest --cov=sae_backend --cov-fail-under=80 --cov-report xml:coverage.xml --cov-report term"
+lint = "flake8"
+bandit = "bandit -c pyproject.toml -r ."
+dev = "uvicorn sae_backend:app --reload"
+prod = "uvicorn sae_backend:app"
+profile = "python -m cProfile -o out.prof -m uvicorn sae_backend:app"
+
+[tool.black]
+line-length = 120
+target-version = ["py311"]
+
+[tool.bandit]
+exclude_dirs = [".git", "__pycache__", ".pytest_cache", ".venv", "tests"]
+targets = ["sae_backend"]
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore:Support for class-based `config` is deprecated, use ConfigDict instead."
+]
+env = [
+    "IS_TESTING=1",
+    "REDIS_URL=redis://localhost:6379",
+    "DEPLOY_MODE=dev"
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

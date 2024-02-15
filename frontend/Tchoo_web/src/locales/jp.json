@@ -1,0 +1,181 @@
+{
+  "main": {
+    "connect": "サインイン",
+    "surveySolution": "最高のオンライン調査ソリューション"
+  },
+  "head": {
+    "joinSession": "セッションに参加"
+  },
+  "create": {
+    "creaName": "アンケート名",
+    "question": "質問",
+    "save": "保存",
+    "export": "エクスポート",
+    "saveLaunch": "保存して開始",
+    "open": "オープンエンドの質問",
+    "multiple": "複数選択の質問",
+    "import": "質問のインポート",
+    "importMany": "アンケートのインポート",
+    "text": "テキストの質問",
+    "textArea": "説明",
+    "title": "タイトル",
+    "description": "説明",
+    "importFrom": "質問バンクからのインポート",
+    "multipleAnswers": "複数の選択肢",
+    "singleAnswer": "単一の選択肢",
+    "openRestricted": "制限付きオープンエンド",
+    "answer": "回答",
+    "check": "正解"
+  },
+  "createSession": {
+    "creaName": "セッション名",
+    "piloted": "パイロットセッション",
+    "autoTime": "自動セッション（タイマー付き）",
+    "autoFree": "自動セッション（自由）",
+    "importSurvey": "アンケートのインポート",
+    "surveyLinked": "リンクされたアンケート",
+    "changeSurvey": "アンケートの変更",
+    "sessionDetails": "セッションの詳細",
+    "access": "アクセシビリティ",
+    "public": "公開",
+    "private": "非公開",
+    "selectGroup": "グループの選択",
+    "answersVisibility": "各質問の間に回答を表示",
+    "yes": "はい",
+    "anonymousAnswers": "匿名の回答",
+    "save": "保存",
+    "start": "セッションの開始"
+  },
+  "lobby": {
+    "Lobby": "ロビー",
+    "Code": "ゲームコード",
+    "wait": "開始をお待ちください",
+    "conn": "接続"
+  },
+  "between": {
+    "Answer": "考慮された回答",
+    "msg": "次の質問をお待ちください"
+  },
+  "error": {
+    "error": "エラー",
+    "msg": "エラーが発生しました。後でもう一度お試しください"
+  },
+  "survey": {
+    "surveys": "私のアンケートを見る",
+    "questions": "私の質問を見る",
+    "session": "過去のセッションを管理する",
+    "groups": "私のグループを管理する",
+    "media": "メディア",
+    "subject": "テーマ",
+    "research": "質問を検索...",
+    "add": "追加",
+    "researchSurvey": "アンケートを検索...",
+    "sessionsShow": "私のセッションテンプレートを見る",
+    "import": "質問のインポート (GIFT/.txt)",
+    "importSurvey": "アンケートのインポート (AMC)",
+    "Publique": "公開",
+    "Privé": "非公開",
+    "show": "回答を表示",
+    "hide": "回答を非表示",
+    "piloted": "ガイドセッション",
+    "auto_timer": "自動セッション（タイマー付き）",
+    "auto_free": "自動セッション（フリー）"
+  },
+  "error404": {
+    "notFound": "ページが見つかりません",
+    "home": "ホームページに戻る"
+  },
+  "joinGame": {
+    "code": "ゲームコード"
+  },
+  "surDetails": {
+    "subject": "テーマ",
+    "nbrQuestion": "質問数",
+    "delete": "削除",
+    "edit": "アンケートの編集",
+    "create": "セッションの作成",
+    "quick": "即興セッション",
+    "editSession": "セッションテンプレートの編集",
+    "startSession": "セッションの開始"
+  },
+  "final": {
+    "result": "完全な結果"
+  },
+  "session": {
+    "finished": "ステータス：終了",
+    "joinCode": "セッションコード",
+    "inProgress": "ステータス：進行中",
+    "history": "セッション履歴",
+    "results": "私の結果を見る"
+  },
+  "freeAnsw": {
+    "placeholder": "あなたの回答"
+  },
+  "multipleAnsw": {
+    "answer": "回答"
+  },
+  "openQst": {
+    "word": "一つの単語のみ許可されています"
+  },
+  "btnPriv": {
+    "private": "非公開",
+    "public": "公開",
+    "select": "グループを選択"
+  },
+  "btnStart": {
+    "start": "テストの開始"
+  },
+  "numberPlayers": {
+    "nbrPly": "プレイヤー数"
+  },
+  "error403": {
+    "msg": "このページにアクセスできません",
+    "home": "ホームページに戻る"
+  },
+  "allGrp": {
+    "Groups": "私のグループ",
+    "actions": "アクション",
+    "groupe": "グループ",
+    "creator": "作成者",
+    "parent": "親グループ",
+    "members": "メンバー数",
+    "createGroup": "グループの作成",
+    "importGrp": "グループのインポート (.CSV)"
+  },
+  "allPlayers": {
+    "result": "完全な結果"
+  },
+  "createQst": {
+    "multiple": "複数の回答",
+    "single": "単一の回答",
+    "openRestricted": "制限付きオープンエンド"
+  },
+  "end": {
+    "noRes": "結果なし...",
+    "fullRes": "完全な結果",
+    "back": "ホームページに戻る"
+  },
+  "group": {
+    "name": "名前",
+    "modify": "このグループを編集",
+    "delete": "このグループを削除",
+    "owner": "グループの所有者",
+    "parent": "親グループ",
+    "members": "メンバー",
+    "noMembers": "メンバーなし",
+    "addMembers": "メンバーの追加",
+    "removeMembers": "メンバーの削除"
+  },
+  "cas": {
+    "home": "ホームページに戻る",
+    "login": "ログイン中",
+    "loading": "読み込み中...",
+    "error": "接続エラー。もう一度お試しください。",
+    "welcome": "ようこそ！"
+  },
+  "student": {
+    "res": "利用可能な結果",
+    "open": "オープン質問",
+    "score": "スコア"
+  }
+}

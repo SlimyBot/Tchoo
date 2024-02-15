@@ -1,0 +1,181 @@
+{
+  "main": {
+    "connect": "Iniciar sesión",
+    "surveySolution": "La mejor solución de encuestas en línea"
+  },
+  "head": {
+    "joinSession": "Unirse a la sesión"
+  },
+  "create": {
+    "creaName": "Nombre de la encuesta",
+    "question": "Pregunta",
+    "save": "Guardar",
+    "export": "Exportar",
+    "saveLaunch": "Guardar y lanzar",
+    "open": "Pregunta abierta",
+    "multiple": "Pregunta de opción múltiple",
+    "import": "Importar pregunta",
+    "importMany": "Importar encuesta",
+    "text": "Pregunta de texto",
+    "textArea": "Descripción",
+    "title": "Título",
+    "description": "Descripción",
+    "importFrom": "Importar desde el banco de preguntas",
+    "multipleAnswers": "Opciones múltiples",
+    "singleAnswer": "Opción única",
+    "openRestricted": "Abierta restringida",
+    "answer": "Respuesta",
+    "check": "Correcta"
+  },
+  "createSession": {
+    "creaName": "Nombre de la sesión",
+    "piloted": "Sesión piloteada",
+    "autoTime": "Sesión automática (programada)",
+    "autoFree": "Sesión automática (libre)",
+    "importSurvey": "Importar encuesta",
+    "surveyLinked": "Encuesta vinculada",
+    "changeSurvey": "Cambiar encuesta",
+    "sessionDetails": "Detalles de la sesión",
+    "access": "Accesibilidad",
+    "public": "Pública",
+    "private": "Privada",
+    "selectGroup": "Seleccionar grupo",
+    "answersVisibility": "Mostrar respuestas entre cada pregunta",
+    "yes": "Sí",
+    "anonymousAnswers": "Respuestas anónimas",
+    "save": "Guardar",
+    "start": "Iniciar sesión"
+  },
+  "lobby": {
+    "Lobby": "Lobby",
+    "Code": "Código de juego",
+    "wait": "Por favor, espera el inicio",
+    "conn": "Conexióné"
+  },
+  "between": {
+    "Answer": "Respuestas tomadas en cuenta",
+    "msg": "Por favor, espera la próxima pregunta"
+  },
+  "error": {
+    "error": "Error",
+    "msg": "Se produjo un error, vuelve a intentarlo más tarde"
+  },
+  "survey": {
+    "surveys": "Ver mis encuestas",
+    "questions": "Ver mis preguntas",
+    "session": "Gestionar mis sesiones pasadas",
+    "groups": "Gestionar mis grupos",
+    "media": "Medios",
+    "subject": "Tema",
+    "research": "Buscar una pregunta...",
+    "add": "Agregar",
+    "researchSurvey": "Buscar una encuesta...",
+    "sessionsShow": "Ver mis plantillas de sesión",
+    "import": "Importar preguntas (GIFT/.txt)",
+    "importSurvey": "Importar encuesta (AMC)",
+    "Publique": "Pública",
+    "Privé": "Privada",
+    "show": "Mostrar respuestas",
+    "hide": "Ocultar respuestas",
+    "piloted": "Sesión Guiada",
+    "auto_timer": "Sesión Automática (Programada)",
+    "auto_free": "Sesión Automática (Libre)"
+  },
+  "error404": {
+    "notFound": "Página no encontrada",
+    "home": "Volver a la página de inicio"
+  },
+  "joinGame": {
+    "code": "Código de juego"
+  },
+  "surDetails": {
+    "subject": "Tema",
+    "nbrQuestion": "Número de preguntas ",
+    "delete": "Eliminar",
+    "edit": "Editar encuesta",
+    "create": "Crear sesión",
+    "quick": "Sesión improvisada",
+    "editSession": "Editar plantilla de sesión",
+    "startSession": "Iniciar sesión"
+  },
+  "final": {
+    "result": "Resultados completos"
+  },
+  "session": {
+    "finished": "Estado: Terminada",
+    "joinCode": "Código de sesión",
+    "inProgress": "Estado: En progreso",
+    "history": "Cronologia delle sessioni",
+    "results": "Ver mis resultados"
+  },
+  "freeAnsw": {
+    "placeholder": "Tu respuesta"
+  },
+  "multipleAnsw": {
+    "answer": "Responder"
+  },
+  "openQst": {
+    "word": "Solo se permite una palabra"
+  },
+  "btnPriv": {
+    "private": "Privado",
+    "public": "Público",
+    "select": "Seleccionar un grupo"
+  },
+  "btnStart": {
+    "start": "Iniciar prueba"
+  },
+  "numberPlayers": {
+    "nbrPly": "Número de jugadores"
+  },
+  "error403": {
+    "msg": "Esta página no es accesible",
+    "home": "Volver a la página de inicio"
+  },
+  "allGrp": {
+    "Groups": "Mis grupos",
+    "actions": "Acciones",
+    "groupe": "Grupos",
+    "creator": "Creador",
+    "parent": "Grupo principal",
+    "members": "Número de miembros",
+    "createGroup": "Crear un grupo",
+    "importGrp": "Importar Grupos (.CSV)"
+  },
+  "allPlayers": {
+    "result": "Resultados completos"
+  },
+  "createQst": {
+    "multiple": "Respuestas múltiples",
+    "single": "Respuesta única",
+    "openRestricted": "Abierta restringida"
+  },
+  "end": {
+    "noRes": "Sin resultados...",
+    "fullRes": "Resultados completos",
+    "back": "Volver a la página de inicio"
+  },
+  "group": {
+    "name": "Nombre",
+    "modify": "Modificar este grupo",
+    "delete": "Eliminar este grupo",
+    "owner": "Propietario del grupo",
+    "parent": "Grupo principal",
+    "members": "Miembros",
+    "noMembers": "Sin miembros",
+    "addMembers": "Agregar miembro",
+    "removeMembers": "Eliminar miembros"
+  },
+  "cas": {
+    "home": "Volver a la página de inicio",
+    "login": "Iniciando sesión",
+    "loading": "Cargando...",
+    "error": "Error de conexión. Por favor, inténtalo de nuevo.",
+    "welcome": "¡Bienvenido!"
+  },
+  "student": {
+    "res": "Tus resultados disponibles",
+    "open": "Preguntas abiertas",
+    "score": "Puntuación"
+  }
+}

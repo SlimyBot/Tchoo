@@ -1,0 +1,39 @@
+/* Variables globales pour les couleurs */
+:root {
+    --main-color: #007ea1;
+    --text-color: #000000;
+    --CTA-color: #007ea1;
+    --CTA-2-color: #e5005b;
+    --CTA-2-hover-color: #780028;
+    --black : #000000;
+    --white : white;
+    --background: white;
+
+    --filter: invert(26%) sepia(100%) saturate(1548%) hue-rotate(169deg) brightness(97%) contrast(101%);
+}
+
+.darkTheme{
+    --main-color: white;
+    --text-color: white;
+    --CTA-color: #202e44;
+    --CTA-2-color: #C03232;
+    --CTA-2-hover-color: #C03232;
+    --black : white;
+    --white : #17273A;
+    --background: #17273A;
+
+    --filter: invert(95%) sepia(84%) saturate(2%) hue-rotate(66deg) brightness(112%) contrast(100%);
+}
+
+.tchooTheme{
+    --main-color: #17273A;
+    --text-color: #17273A;
+    --CTA-color: #17273A;
+    --CTA-2-color: #C03232;
+    --CTA-2-hover-color: #D9D9D9;
+    --black : #000000;
+    --white : white;
+    --background: white;
+
+    --filter: invert(15%) sepia(14%) saturate(1764%) hue-rotate(177deg) brightness(97%) contrast(93%);
+}

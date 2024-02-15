@@ -1,0 +1,72 @@
+# Fichier docker compose principal pour lancer toute l'application
+
+version: '3.8'
+
+name: full-sae
+
+services:
+
+  db:
+    image: postgres:15-alpine
+    command: postgres -c 'max_connections=5000' -c 'shared_buffers=80MB'
+    restart: unless-stopped
+    env_file:
+      - ./backend/.env
+    ports:
+      - "5432:5432"
+    volumes:
+      - sae-backend-data:/var/lib/postgresql/data
+
+  db-backup:
+    image: prodrigestivill/postgres-backup-local
+    restart: unless-stopped
+    env_file:
+      - ./backend/.env
+    environment:
+      - POSTGRES_HOST=db
+      - SCHEDULE=0 1,12 * * *
+      - BACKUP_KEEP_DAYS=7
+      - BACKUP_KEEP_WEEKS=4
+      - BACKUP_KEEP_MONTHS=6
+    links:
+        - db
+    depends_on:
+        - db
+    volumes:
+      - ../backups:/backups
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+
+  backend-app:
+    image: sae-backend-app:${GIT_COMMIT:-latest}
+    build:
+      context: ./backend
+      args:
+        - GIT_COMMIT
+    restart: unless-stopped
+    depends_on:
+      - db
+      - redis
+    env_file:
+      - ./backend/.env
+    environment:
+      - POSTGRES_SERVER=db
+      - REDIS_URL=redis://redis:6379
+
+  frontend-app:
+    image: sae-frontend-app:${GIT_COMMIT:-latest}
+    build:
+      context: ./frontend
+      args:
+        - GIT_COMMIT
+    restart: unless-stopped
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend-app
+
+
+volumes:
+  sae-backend-data:
