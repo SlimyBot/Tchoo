@@ -9,7 +9,7 @@ Chef de projet : Raphaël Caldwell
 
 Développeurs : Eloi Terrol, Lucas Schiavetti, Mathieu Da Vinha, Mattys Lemoine, Maxance Viola, Santiago Di Fede
 
-Enseignant responsable : Gaëtan Rey
+Enseignant responsable : Gxxxxxx RXX
 
 ## Instructions pour installer et lancer le projet
 
