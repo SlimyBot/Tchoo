@@ -2,7 +2,7 @@
 
 ## TCHOO : Questionnaires en lignes
 
-Tchoo est un site de questionnaires en lignes conçus pour les professeurs et leurs élèves. Créez vos questionaires, projetez-les sur un écran et impliquez vottre classe !
+Tchoo est un site de questionnaires en lignes conçus pour les professeurs et leurs élèves. Créez vos questionaires, projetez-les sur un écran et impliquez votre classe !
 
 ## Auteurs et responsables
 Chef de projet : Raphaël Caldwell
